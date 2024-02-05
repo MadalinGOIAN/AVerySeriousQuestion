@@ -1,0 +1,30 @@
+* {
+    font-family: "Pacifico";
+}
+
+body {
+    background-color: #ffffc2;
+}
+
+h1 {
+    color: #f5a9cb;
+}
+
+h2 {
+    color: #f5a9cb;
+}
+
+.message {
+    text-align: center;
+}
+
+.cat-kiss, .hearts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hearts img {
+    height: 225px;
+    width: 225px;
+}

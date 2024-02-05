@@ -1,0 +1,49 @@
+* {
+    font-family: "Pacifico";
+}
+
+body {
+    background-color: #ffffc2;
+}
+
+h1 {
+    color: #f5a9cb;
+}
+
+h2 {
+    color: #f5a9cb;
+}
+
+.question, .wrong-answer {
+    text-align: center;
+}
+
+.cat, .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cat img {
+    height: 225px;
+    width: 225px;
+}
+
+#yes-btn, #no-btn {
+    background-color: #977fd7;
+    border: none;
+    border-radius: 8px;
+    color: #ffffc2;
+    cursor: pointer;
+    font-size: 150%;
+    margin: 3vh 1vw;
+    width: 100px;
+}
+
+#yes-btn:focus, #no-btn:focus {
+    outline: none;
+}
+
+a #yes-btn:hover, #no-btn:hover {
+    background-color: #7865a9;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pacifico">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+    <title>Important question!!!</title>
+</head>
+
+<body>
+    <div class="question">
+        <h2>Hello cutie</h2>
+        <h2>Very important question incoming!</h2>
+        <h1>Wanna be my valentine?</h1>
+    </div>
+
+    <div class="cat">
+        <img src="cool_cat.png" alt="Cool Cat">
+    </div>
+
+    <div class="buttons">
+        <a href="yes.html">
+            <button id="yes-btn" 
+                onmouseover="SetCatImg('happy_cat.png', 'Happy Cat')"
+                onmouseleave="SetCatImg('cool_cat.png', 'Cool Cat')">Yes</button>
+        </a>
+        <button id="no-btn" 
+                onmouseover="SetCatImg('sad_cat.png', 'Sad Cat')"
+                onmouseleave="SetCatImg('cool_cat.png', 'Cool Cat')"
+                onclick="DisableNoBtn()">No</button>
+    </div>
+
+    <div class="wrong-answer" hidden>
+        <h1>Wrong answer! >:(</h1>
+    </div>
+</body>
+</html>
